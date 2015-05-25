@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "gre8n web",
   "scripts": {
+    "setup": "npm install -g gulp bower supervisor",
+    "run": "echo \"Error: command not exists \" && exit 1",
+    "build": "gulp",
     "start": "node app.js",
     "monitor": "nodemon app.js",
     "deploy": "gcloud preview app deploy app.yml",
